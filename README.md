@@ -12,7 +12,7 @@ Extract `prtCave.pbm` from the `data/Stage` folder.
 
 Convert files from pbm to png using Photoshop, Paint, or Gimp.
 
-Save `BkBlack.png` and `bkBlue.pbm` in `Cavestory/Content/Backgrounds`.
+Save `BkBlack.png` and `bkBlue.png` in `Cavestory/Content/Backgrounds`.
 
 Save `MyChar.png` in `Cavestory/Content/Sprites`. Make sure to change the black background into transparent.
 
