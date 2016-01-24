@@ -1,0 +1,70 @@
+﻿Build started 1/23/2016 8:02:25 PM.
+     1>Project "F:\Cavestory\Cavestory\Cavestory\Cavestory.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IF:\Cavestory\Cavestory\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAc /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AnimatedSprite.cpp Game.cpp Graphics.cpp Input.cpp Level.cpp main.cpp Player.cpp Sprite.cpp Tile.cpp tinyxml2.cpp
+         tinyxml2.cpp
+         Tile.cpp
+     1>f:\cavestory\cavestory\cavestory\tile.cpp(26): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\tile.cpp(40): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         Sprite.cpp
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(31): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(32): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(40): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(40): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(52): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\sprite.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Player.cpp
+     1>f:\cavestory\cavestory\cavestory\player.h(70): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(129): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\player.cpp(136): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(149): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(152): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\player.cpp(163): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(165): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\player.cpp(169): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+     1>f:\cavestory\cavestory\cavestory\player.h(70): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+         Level.cpp
+     1>f:\cavestory\cavestory\cavestory\level.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(82): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\level.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(239): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\level.cpp(253): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\level.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(273): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(276): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\level.cpp(278): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\level.cpp(118): warning C4101: 'path' : unreferenced local variable
+     1>f:\cavestory\cavestory\cavestory\level.cpp(310): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\cavestory\cavestory\cavestory\level.cpp(324): warning C4018: '<' : signed/unsigned mismatch
+         Input.cpp
+         Graphics.cpp
+         Game.cpp
+     1>f:\cavestory\cavestory\cavestory\player.h(70): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\game.cpp(49): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\game.cpp(109): warning C4244: 'initializing' : conversion from 'Uint32' to 'const float', possible loss of data
+     1>f:\cavestory\cavestory\cavestory\game.cpp(113): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         AnimatedSprite.cpp
+     1>f:\cavestory\cavestory\cavestory\animatedsprite.cpp(106): warning C4018: '>' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Cavestory\Cavestory\Debug\Cavestory.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\Cavestory\Cavestory\lib\x86 SDL2.lib SDL2main.lib SDL2_image.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Cavestory\Cavestory\Debug\Cavestory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Cavestory\Cavestory\Debug\Cavestory.lib" /MACHINE:X86 Debug\AnimatedSprite.obj
+         Debug\Game.obj
+         Debug\Graphics.obj
+         Debug\Input.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Sprite.obj
+         Debug\Tile.obj
+         Debug\tinyxml2.obj
+         Cavestory.vcxproj -> F:\Cavestory\Cavestory\Debug\Cavestory.exe
+     1>Done Building Project "F:\Cavestory\Cavestory\Cavestory\Cavestory.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.91
